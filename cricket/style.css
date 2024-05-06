@@ -1,0 +1,134 @@
+body{
+  /* background-image: url(download.jfif);
+  background-size: 90%; */
+  /* background-size: cover; */
+  background-color: black;
+  color: white;
+}
+.hide {
+  display: none;
+}
+#aus{
+  border: none;
+}
+#afg img{
+  width: 65%;
+  height: 120%;
+}
+.teams .team p{
+  font-size: small;
+  display: grid;
+  background-color: #ccc;
+  color: black;
+height: fit-content;
+}
+.teams .team img{
+  width: 70%;
+}
+.teams div{
+  border-top: none;
+  border-left: none;
+}
+.teams {
+  /* display: flex; */
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+}
+.team{
+  border: 1px solid black;
+}
+#pak div{
+  border: 1px solid black;
+}
+div#team-selection .team {
+  padding: 6px;
+  height: 80px;
+  width: 150px;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: 2px solid gray;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2px;
+  cursor: pointer;
+}
+
+div#team-selection .selected-team {
+  border-color: red;
+}
+
+
+.your-team {
+  text-decoration: underline;
+}
+ 
+
+#login{
+  /* justify-content: center;
+  align-items: center;
+   display: flex; 
+   */
+   background: none;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto  ;
+}
+#pak img{
+  margin-right: 20px;
+  width: 73%;
+  height: 100px;
+}
+#sa img{
+  width: 75%;
+  margin-right: 40px;
+  height: 100px;
+}
+#aus img{
+  
+  margin-right :20px;
+  width: 73%;
+  height: 100px;
+}
+#nz img{
+  margin-right: 20px;
+  width: 73%;
+  height: 100px;
+}
+
+
+#login img{
+  width: 120px;
+  height: 120px;
+} 
+
+#login input{
+   width: 30%;
+   background: none;
+  height: 50px;
+  border: 1px solid gray; 
+width: 80%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+margin-bottom: 10px;
+}
+ button{
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+
+/* background: none; */
+  cursor: pointer;
+} 
